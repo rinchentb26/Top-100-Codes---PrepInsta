@@ -5,12 +5,10 @@ class Main {
         Scanner sc = new Scanner(System.in);
         int n;
         n = sc.nextInt();
-        if (n > 0)
-            System.out.println("Number is positive.");
-        else if (n < 0)
-            System.out.println("Number is negative.");
+        if (n % 2 == 0)
+            System.out.println("Number is even.");
         else
-            System.out.println("Number is 0.");
+            System.out.println("Number is odd.");
         sc.close();
     }
 }
