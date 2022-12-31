@@ -11,6 +11,9 @@ class Main {
         return sum;
     }
 
+    // Friendly pair(Amicable numbers) are two different numbers related in a way
+    // such that the Ratio’s sum of the proper divisors divided by number itself for
+    // each is same
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int num1, num2;
